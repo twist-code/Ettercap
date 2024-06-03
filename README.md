@@ -1,7 +1,7 @@
 <h1>MITM with Ettercap</h1>
 
 <h2>Description</h2>
-
+Ettercap is a powerful advanced network interception and manipulation tool designed for conducting Man-in-the-Middle (MITM) attacks. It enables real-time interception, monitoring, and manipulation of network traffic, providing capabilities for ARP poisoning, DNS spoofing, and SSL stripping. It is widely used for network analysis, security testing, and vulnerability assessments.
 <br />
 
 <h2>Skills Obtained</h2>
