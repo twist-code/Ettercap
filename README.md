@@ -19,12 +19,12 @@
 
 <h2>Utilities Used</h2>
 
-- <b>Kali Linux Terminal</b> 
-- <b>Pi-Hole</b>
+- <b>Ettercap</b> 
+- <b>Wireshark</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 11 VM</b> (the device to monitor)
-- <b>Ubuntu 22.14 VM</b> 
+- <b>Kali Linux</b> 
 
 <h2>Project walk-through:</h2>
