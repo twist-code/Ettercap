@@ -28,3 +28,44 @@
 - <b>Kali Linux</b> 
 
 <h2>Project walk-through:</h2>
+
+<p align="center">
+Step 1: Open Ettercap after Updating repositories and libraries <br/><br/>
+<img src="https://i.imgur.com/WRyi0yO.png" height="80%" width="80% alt="ettercap"/>
+<img src="https://i.imgur.com/Mm9gX8M.png" height="80%" width="80%" alt="ettercap"/>
+<br />
+<br />
+Step 2: Scanning for hosts connected to the network  <br/><br/>
+<img src="https://i.imgur.com/wW1OSKq.png" height="80%" width="80%" alt="ettercap"/>
+<br />
+<br />
+Step 3: Adding hosts to the targets - We'll add the victim to target 1 and the router to target 2 <br/><br/>
+<img src="https://i.imgur.com/J25b4Pg.png" height="80%" width="80%" alt="ettercap"/><br/>
+<img src="https://i.imgur.com/tQ0s7eE.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <img src="https://i.imgur.com/7nuSmAL.png" height="80%" width="80%" alt="ettercap"/>
+<br />
+<br />
+Step 4: Open wireshark and analyze what’s happening on the network  <br/> by clicking on ARP poising, we can see that our interface has now became the gateway. (Via wireshark)<br/>
+<img src="https://i.imgur.com/WYKFhd4.png" height="80%" width="80%" alt="ettercap"/>
+<img src="https://i.imgur.com/SujayvV.png" height="80%" width="80%" alt="ettercap"/>
+<br />
+<br />
+It is visible that we can monitor the victim’s activities. (It can be seen that the victim was on youtube)  <br/>
+<img src="https://i.imgur.com/6pyrmox.png" height="80%" width="80%" alt="ettercap"/>
+<br />
+<br />
+Step 5: If the victim visits an HTTP WEBSITE, We’ll be able to see their credentials because the text is not encrypted.  <br/>
+<img src="https://i.imgur.com/q4ZNyJV.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <br/>
+1. navigate to http://testphp.vulnweb.com/login.php and login with any credentials  <br/>
+<img src="https://i.imgur.com/nTRLZwy.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <br/>
+2. Go the to the hacker’s machine, check Ettercap   <br/>
+<img src="https://i.imgur.com/s5P4NOk.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <br/>
+3. On Wireshark, filter “http” and find the packet   <br/>
+<img src="https://i.imgur.com/7qDdIMf.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <br/>
+4. Or filter <b>http.request.method == "POST"</b> to get to it   <br/>
+<img src="https://i.imgur.com/7qDdIMf.png" height="80%" width="80%" alt="ettercap"/><br/>
+  <br/>
