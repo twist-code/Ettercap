@@ -27,8 +27,9 @@ Ettercap is a powerful advanced network interception and manipulation tool desig
 - <b>Windows 11 VM</b> (the device to monitor)
 - <b>Kali Linux</b> 
 
-<h2>Project walk-through:</h2>
-
+<h2>Project walk-through:</h2><br/>
+<h3>ARP Spoofing </h3><br/>
+<img src="https://i.imgur.com/PdwEHIa.jpeg" height="80%" width="80%" alt="ettercap"/><br/>
 <p align="center">
 Step 1: Open Ettercap after Updating repositories and libraries <br/><br/>
 <img src="https://i.imgur.com/WRyi0yO.png" height="80%" width="80% alt="ettercap"/>
