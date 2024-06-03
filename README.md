@@ -45,27 +45,26 @@ Step 3: Adding hosts to the targets - We'll add the victim to target 1 and the r
   <img src="https://i.imgur.com/7nuSmAL.png" height="80%" width="80%" alt="ettercap"/>
 <br />
 <br />
-Step 4: Open wireshark and analyze what’s happening on the network  <br/> by clicking on ARP poising, we can see that our interface has now became the gateway. (Via wireshark)<br/>
+Step 4: Open wireshark and analyze what’s happening on the network  <br/> by clicking on ARP poising, we can see that our interface has now became the gateway. (Via wireshark)<br/><br/>
 <img src="https://i.imgur.com/WYKFhd4.png" height="80%" width="80%" alt="ettercap"/>
 <img src="https://i.imgur.com/SujayvV.png" height="80%" width="80%" alt="ettercap"/>
 <br />
 <br />
-It is visible that we can monitor the victim’s activities. (It can be seen that the victim was on youtube)  <br/>
+It is visible that we can monitor the victim’s activities. (It can be seen that the victim was on youtube)  <br/><br/>
 <img src="https://i.imgur.com/6pyrmox.png" height="80%" width="80%" alt="ettercap"/>
-<br />
-<br />
+<br /><br/>
 Step 5: If the victim visits an HTTP WEBSITE, We’ll be able to see their credentials because the text is not encrypted.  <br/>
-<img src="https://i.imgur.com/q4ZNyJV.png" height="80%" width="80%" alt="ettercap"/><br/>
-  <br/>
-1. navigate to http://testphp.vulnweb.com/login.php and login with any credentials  <br/>
+1. navigate to http://testphp.vulnweb.com/login.php and login with any credentials  <br/><br/>
 <img src="https://i.imgur.com/nTRLZwy.png" height="80%" width="80%" alt="ettercap"/><br/>
   <br/>
-2. Go the to the hacker’s machine, check Ettercap   <br/>
+2. Go the to the hacker’s machine, check Ettercap   <br/><br/>
 <img src="https://i.imgur.com/s5P4NOk.png" height="80%" width="80%" alt="ettercap"/><br/>
   <br/>
-3. On Wireshark, filter “http” and find the packet   <br/>
+3. On Wireshark, filter “http” and find the packet   <br/><br/>
 <img src="https://i.imgur.com/7qDdIMf.png" height="80%" width="80%" alt="ettercap"/><br/>
   <br/>
-4. Or filter <b>http.request.method == "POST"</b> to get to it   <br/>
+4. Or filter <b>http.request.method == "POST"</b> to get to it   <br/><br/>
 <img src="https://i.imgur.com/7qDdIMf.png" height="80%" width="80%" alt="ettercap"/><br/>
   <br/>
+
+  <h2 align=center>THANK YOU</h2>
